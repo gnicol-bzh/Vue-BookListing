@@ -7,8 +7,10 @@
 <script>
 export default {
     name: "BookList",
-    data: () => {
-        title: "All books";
+    data: function() {
+        return {
+            title: "All Books"
+        };
     }
 };
 </script>
@@ -16,6 +18,6 @@ export default {
 <style>
 h1,
 h2 {
-    font-style: normal;
+    font-weight: normal;
 }
 </style>
